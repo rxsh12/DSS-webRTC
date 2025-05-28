@@ -1,4 +1,4 @@
-# Video-Group-Meeting-Client
+# DSS-webRTC-Client
 
 - React
 - WebRTC
