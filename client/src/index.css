@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.14.0/css/all.css');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #003366; /* Navy blue text for consistency */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+strong,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit; /* Inherit the blue text color */
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+/* Responsive font scaling */
+@media screen and (max-height: 630px) {
+  html,
+  body {
+    font-size: 80%;
+  }
+}
+
+/* Utility classes */
+.hidden {
+  display: none !important;
+}
+
+.width0 {
+  width: 0% !important;
+}
+
+.width-peer0 {
+  width: 45% !important;
+}
+
+.width-peer1 {
+  width: 45% !important;
+}
+.width-peer2 {
+  width: 30% !important;
+}
+.width-peer3,
+.width-peer4,
+.width-peer5 {
+  width: 28% !important;
+}
+.width-peer6,
+.width-peer7,
+.width-peer8 {
+  width: 25% !important;
+}
+
+.width-peer {
+  width: 20% !important;
+}
+
+/* Additional: style buttons for dental app */
+
+button {
+  background-color: #003366; /* Navy blue */
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00509e; /* lighter navy on hover */
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
