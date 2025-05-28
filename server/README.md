@@ -1,4 +1,4 @@
-# Video-Group-Meeting-Server
+# DSS-webRTC-Server
 
 - Node Express
 - Socket.io
