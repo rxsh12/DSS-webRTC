@@ -1,0 +1,43 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #e8f0fe;
+  border-bottom: 2px solid #c0d3ee;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.header-title {
+  font-size: 24px;
+  color: #1a73e8;
+  font-weight: 600;
+}
+
+.header-right {
+  font-size: 16px;
+  color: #333;
+}
+
+.room-id-label {
+  font-weight: 500;
+  margin-right: 6px;
+}
+
+.room-id-value {
+  font-family: monospace;
+  background: #d0e2ff;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
